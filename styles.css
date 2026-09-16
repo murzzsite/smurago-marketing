@@ -166,6 +166,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .grid { display: grid; gap: 24px; }
 .grid--4 { grid-template-columns: repeat(4, 1fr); }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
+.grid--2 { grid-template-columns: repeat(2, 1fr); }
 
 .adv, .service, .object {
   background: var(--surface);
@@ -389,7 +390,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 @media (max-width: 560px) {
   .header__phone { display: none; }
-  .grid--4, .grid--3, .steps, .contacts { grid-template-columns: 1fr; }
+  .grid--4, .grid--3, .grid--2, .steps, .contacts { grid-template-columns: 1fr; }
   .hero { padding: 48px 0 64px; }
   .section { padding: 64px 0; }
   .price-row { grid-template-columns: 1.2fr 0.9fr 1fr; gap: 8px; }
